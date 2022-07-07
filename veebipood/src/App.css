@@ -36,10 +36,22 @@
     transform: rotate(360deg);
   }
 }
-.nupu-css{
+
+/* kodus: nupu tagataust, nupu teksti värvus */
+.nupu-css {
   font-weight: bold;
 }
-.nupu-css hover{
+
+.nupu-css:hover {
   cursor: progress;
   border: 3px dotted green;
+}
+
+.pilt {
+  width: 100px;
+  border-radius: 30px;
+}
+
+.pilt:hover {
+  width: 300px;
 }

@@ -1,31 +1,24 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Link, Routes } from 'react-router-dom';
+import Avaleht from './pages/Avaleht';
+import LisaToode from './pages/LisaToode';
+import Ostukorv from './pages/Ostukorv';
+import Poed from './pages/Poed';
 
 function App() {
   return (
     <div className="App">
-      <img className="pilt" src="https://geenius.ee/app/uploads/sites/4/2018/06/3150df1ed3a118814f15a956c54c1eab.jpeg" alt=""
+      <img className="pilt" src="https://estonia.ee/wp-content/uploads/nobe_netist_4.jpg" alt="" />
       <button className="nupu-css">Nupp</button>
-     
+      
+
       <Routes>
-        <Route path='' element={ <Avaleht />} />
-        <Route path
-          <div>
-            <div>AVALEHT</div>
-
-            <Link to="/ostukorv">
-        <button>OSTUKORVI</button>
-      </Link>
-          </div>}
-        
-
-        <Route path= 'ostukorv' element={
-        </Link>
-        <div>OSTUKORV</div>
-        </div>
-        }
+        <Route path='' element={ <Avaleht /> } />
+        <Route path='ostukorv' element={ <Ostukorv /> } />
+        <Route path='lisa-toode' element={ <LisaToode /> } />
+        <Route path='poed' element={ <Poed /> } />
       </Routes>
+
     </div>
   );
 }

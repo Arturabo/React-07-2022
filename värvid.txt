@@ -1,0 +1,9 @@
+// tumesinine - HTML: tag, JS: function, const
+// sinine - muutuja mis on minu JavaScriptis
+// helesinine - HTML: atribuut: onClick, className, disabled, src 
+//        JS: üldkasutatav muutuja localStorage, console, JSON, window
+// kollane - funktsioonid
+// valge - väljakuvatav
+// oranž - jutumärkides olev väärtus
+// roheline (suur täht) - klass, mida peab importima
+// lilla - import / export / return
